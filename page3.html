@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New List</title>
+    <link rel="stylesheet" href="page3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="head notshow">
+      <div class="taskList">
+        <span class="task">Task</span>
+        <span class="lists">Lists</span>
+      </div>
+      <div class="addList">
+        <i
+          class="fa fa-plus-circle"
+          style="font-size: 28px; color: rgb(255, 136, 0); cursor: pointer"
+        ></i>
+        <span class="text-addList">Add List</span>
+      </div>
+    </div>
+
+    <div class="main-content notshow">
+      <div class="Main-page">
+        <h4 class="page-heading">Trip to Paris</h4>
+        <div class="completed">Completed Task</div>
+        <form class="form" action="">
+          <input type="checkbox" name="check" id="check" />
+          <label class="pending-task" for="check">Pending Task</label>
+        </form>
+      </div>
+      <div class="Main-page">
+        <h4 class="page-heading">My Todo List</h4>
+        <div class="completed">Completed Task</div>
+        <form class="form" action="">
+          <input type="checkbox" name="check" id="check" />
+          <label class="pending-task" for="check">Pending Task</label>
+        </form>
+      </div>
+      <div class="Main-page">
+        <h4 class="page-heading">My Todo List</h4>
+        <div class="completed">Completed Task</div>
+        <form class="form" action="">
+          <input type="checkbox" name="check" id="check" />
+          <label class="pending-task" for="check">Pending Task</label>
+        </form>
+      </div>
+    </div>
+    <div class="pop-up">
+        <p id="add-list">Add New List</p>
+        <input type="text" id="text" placeholder="New List Name">
+        <button class="pop-up-btn">ADD</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+.main-head{
+    font-size: 2.6rem;
+}
+.navigate-back{
+    font-size: 1.5rem;
+}
+.main-content {
+    width: 24%;
+    margin: 65px auto;
+  }
+  .Main-page {
+    border: 1px solid rgb(194, 109, 109);
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 3px 3px 10px gray;
+    height: 290px;
+    position: relative;
+  }
+  
+  .page-heading {
+    color: red;
+    font-weight: lighter;
+    font-size: 1.15rem;
+    opacity: 0.7;
+    border-bottom: 1px solid red;
+    width: 85%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+  }
+  .completed {
+    color: red;
+    width: 85%;
+    height: 10%;
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-decoration: line-through;
+  }
+  .form {
+    height: 10%;
+    width: 90%;
+    position: absolute;
+    top: 48%;
+    font-size: 1.15rem;
+    opacity: 0.7;
+  }
+  .plus-icon{
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+  }
+ #check {
+  cursor: pointer;
+ }
+ .back-icon{
+  cursor: pointer;
+ }

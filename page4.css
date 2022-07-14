@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+.main-head{
+    font-size: 2.6rem;
+}
+.navigate-back{
+    font-size: 1.5rem;
+}
+.main-content {
+    width: 24%;
+    margin: 65px auto;
+  }
+  .Main-page {
+    border: 1px solid rgb(194, 109, 109);
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 3px 3px 10px gray;
+    height: 290px;
+    position: relative;
+  }
+  
+  .page-heading {
+    color: red;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    border-bottom: 1px solid red;
+    width: 85%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+  }
+  .completed {
+    color: red;
+    width: 85%;
+    height: 10%;
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: line-through;
+  }
+  .form {
+    height: 10%;
+    width: 90%;
+    position: absolute;
+    top: 48%;
+    font-size: 1.1rem;
+  }
+  .plus-icon{
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+  }
+  .notshow{
+    filter: blur(3px);
+}
+.pop-up{
+    position: absolute;
+    left: 35%;
+    top: 31%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+    width: 30%;
+    border: 1.3px solid red;
+    border-radius: 6px;
+    box-shadow: 4px 5px 10px gray;
+    color: red;
+    background-color: white;
+    font-size: 1.05rem;
+    justify-content: space-evenly;
+}
+#text{
+    width: 75%;
+    border-radius: 4px;
+    border: 1.5px solid black;
+    padding: 6px;
+}
+#add-list{
+    margin: 0;
+    
+
+}
+.pop-up-btn{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    width: 28%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    transition: transform 0.3s;
+
+}
+.pop-up-btn:hover{
+  background-color: rgb(236, 32, 32);
+}
+.pop-up-btn:active{
+  transform: scale(1.05,1.05);
+}
